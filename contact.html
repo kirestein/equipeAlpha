@@ -864,21 +864,32 @@
           </div>
           <div class="col-md-6">
             <div class="form-contact-wrap m-t-40">
-              <h4>Send us a message</h4>
+              <h4>Entre em contado</h4>
               <form class="form-contact" role="form" action="enviar.php" name="form_contato" method="post">
                 <div class="row">
                   <div class="col-md-6 col-12">
-                    <input type="text" name="name" required placeholder="Your Name*">
+                    <input type="text" name="name" required placeholder="Seu Nome*">
                   </div>
                   <div class="col-md-6 col-12">
-                    <input type="email" name="email" required placeholder="Your Email*">
+                    <input type="email" name="email" required placeholder="Seu Email*">
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <input type="number" name="telefone" required placeholder="Seu Número*">
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <select name="tipo">
+                      <option value="Residencial">Residencial</option>
+                      <option value="Comercial">Comercial</option>
+                      <option value="Alto">Alto Padrão</option>
+                      <option value="Studio">Studio</option>
+                    </select>
                   </div>
                   <div class="col-md-12">
-                    <textarea name="message" class="message" placeholder="Your Message"></textarea>
+                    <textarea name="message" class="message" placeholder="Mensagem"></textarea>
                   </div>
                 </div>
                 <div>
-                  <button type="submit" class="au-btn au-btn--pill au-btn--yellow au-btn--big">Entre em Contato</button>
+                  <input type="submit" class="au-btn au-btn--pill au-btn--yellow au-btn--big">
                 </div>
               </form>
             </div>

@@ -5343,7 +5343,7 @@ body.box {
 }
 
 .form-contact input,
-textarea {
+textarea, select{
     width: 100%;
     color: #999;
     outline: none;
